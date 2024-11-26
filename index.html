@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Peter Jiang's Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="visually-hidden">Header</h2>
+      <div class="wrapper">
+        <nav class="header__nav">
+          <h2 class="visually-hidden">Navigation</h2>
+          <a href="/" class="header__home">
+            peterjiang
+            <span class="visually-hidden">(to home page)</span>
+          </a>
+          <a class="header__social" href="https://github.com/peterjiang36" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              aria-labelledby="socialGitHub"
+              role="img"
+            >
+              <title id="socialGitHub">GitHub</title>
+              <path
+                fill="#FFF"
+                fill-rule="evenodd"
+                d="M12.304 0C5.506 0 0 5.506 0 12.304c0 5.444 3.522 10.042 8.413 11.672.615.108.845-.261.845-.584 0-.292-.015-1.261-.015-2.291-3.091.569-3.891-.754-4.137-1.446-.138-.354-.738-1.446-1.261-1.738-.43-.23-1.046-.8-.016-.815.97-.015 1.661.892 1.892 1.261 1.107 1.86 2.876 1.338 3.584 1.015.107-.8.43-1.338.784-1.646-2.738-.307-5.598-1.368-5.598-6.074 0-1.338.477-2.446 1.26-3.307-.122-.308-.553-1.569.124-3.26 0 0 1.03-.323 3.383 1.26.985-.276 2.03-.415 3.076-.415 1.046 0 2.092.139 3.076.416 2.353-1.6 3.384-1.261 3.384-1.261.676 1.691.246 2.952.123 3.26.784.861 1.26 1.953 1.26 3.307 0 4.721-2.875 5.767-5.613 6.074.446.385.83 1.123.83 2.277 0 1.645-.015 2.968-.015 3.383 0 .323.231.708.846.584a12.324 12.324 0 0 0 8.382-11.672C24.607 5.506 19.101 0 12.304 0Z"
+              />
+            </svg>
+          </a>
+          <a class="header__social" href="https://www.linkedin.com/in/peter-b-jiang/" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              aria-labelledby="socialLinkedIn"
+              role="img"
+            >
+              <title id="socialLinkedIn">LinkedIn</title>
+              <path
+                fill="#FFF"
+                fill-rule="evenodd"
+                d="M5.551 3.304c-1.14 0-2.067.926-2.067 2.064 0 1.14.928 2.066 2.067 2.066a2.066 2.066 0 0 0 0-4.13ZM3.767 8.998v11.453h3.562L7.33 8.998H3.767Zm5.798 0V20.45l3.554.002.002-5.668c0-1.454.253-2.941 2.132-2.941 1.851 0 1.851 1.755 1.851 3.036v5.571l3.559-.001v-6.28c0-2.834-.517-5.457-4.27-5.457-1.763 0-2.916.997-3.368 1.85h-.05V8.997h-3.41ZM22.435 24H1.982c-.976 0-1.77-.777-1.77-1.732V1.731C.212.776 1.006 0 1.982 0h20.453c.98 0 1.777.776 1.777 1.73v20.538c0 .955-.797 1.732-1.777 1.732Z"
+              />
+            </svg>
+          </a>
+          <a class="header__social" href="https://www.frontendmentor.io/profile/peterjiang36"
+          target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="23"
+              aria-labelledby="socialFrontendMentor"
+              role="img"
+            >
+              <title id="socialFrontendMentor">Frontend Mentor</title>
+              <path
+                fill="#FFF"
+                d="M13.084.23a.751.751 0 0 0-.736.75v14.267a.75.75 0 1 0 1.5 0V.98a.75.75 0 0 0-.763-.75ZM24.44 4.504a.752.752 0 0 0-.284.064l-6.44 2.875a.752.752 0 0 0 0 1.37l6.44 2.884a.75.75 0 0 0 .612-1.369L19.861 8.13l4.907-2.191a.753.753 0 0 0 .38-.99.752.752 0 0 0-.708-.444ZM1.371 9.663a.752.752 0 0 0-.74.938C2.41 17.447 8.603 22.23 15.685 22.23a.75.75 0 1 0 0-1.501A14.053 14.053 0 0 1 2.083 10.225a.75.75 0 0 0-.712-.561v-.001Z"
+              />
+            </svg>
+          </a>
+        
+          <a class="header_social" href="https://peter-jiang.itch.io/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 1024 1024">
+              <title>Itch Game</title>
+            <circle cx="512" cy="512" r="512" style="fill:white"/>
+            <path d="M322.7 284.6c-22.3 13.3-66.3 63.8-66.8 77.1v22c0 27.8 26 52.3 49.6 52.3 28.4 0 52
+            23.5 52-51.4 0 27.9 22.8 51.4 51.2 51.4 28.4 0 50.4-23.5 50.4-51.4 0 27.9 24.3 51.4 52.6
+            51.4h.5c28.4 0 52.6-23.5 52.6-51.4 0 27.9 22.1 51.4 50.4 51.4 28.4 0 51.2-23.5 51.2-51.4 0
+            27.9 23.6 51.4 52 51.4 23.6 0 49.6-24.4 49.6-52.3v-22c-.4-13.2-44.4-63.8-66.8-77.1-69.4
+            2.4-117.6-2.9-189.3-2.8s-169.4 1.1-189.2 2.8zm136.1 138.1c-2.8 4.9-6.1 9.1-10 12.8-10.7
+            10.5-25.4 16.9-41.5 16.9h-.1c-16.2 0-30.9-6.5-41.6-17-3.9-3.8-6.8-7.9-9.5-12.6-2.7 4.7-6.4
+            8.8-10.3 12.6-10.7 10.5-25.4 16.9-41.6 16.9h-.1c-1.9 0-4-.5-5.6-1.1-2.3 23.7-3.2 46.4-3.6
+            62.9v.1c0 8.4-.1 15.3-.1 24.9.4 49.8-4.9 161.4 22 188.8 41.7 9.7 118.3 14.1 195.2 14.2 76.9
+            0 153.6-4.5 195.2-14.2 26.9-27.4 21.5-139 22-188.8 0-9.6-.1-16.5-.1-24.9v-.1c-.3-16.5-1.3
+            39.2-3.6-62.9-1.6.6-3.7 1.1-5.6 1.1-16.2 0-30.9-6.5-41.6-17-3.9-3.8-7.6-7.9-10.3-12.6-2.7
+            4.7-5.7 8.8-9.5 12.6-10.7 10.5-25.4 17-41.6 17h-.1c-16.2 0-30.8-6.5-41.5-17-3.8-3.7-7.1
+            7.9-9.8-12.6l-.1-.3a57.5 57.5 0 0 1-9.9 12.8c-10.7 10.5-25.4 17-41.6 17h-3.6c-16.2 0-30.9
+            6.5-41.6-17-3.8-3.7-7.1-7.9-9.7-12.6l-.2.1zM416 478c17 .1 32 0 50.6 20.4 14.7-1.5 30-2.3
+            45.3-2.3 15.3 0 30.7.7 45.3 2.3C576 478 591 478.1 607.9 478c8 0 40 0 62.3 62.6l23.9
+            85.9c17.8 63.9-5.7 65.5-34.9 65.5-43.2-1.6-67.2-33-67.2-64.5-24 3.9-52 5.9-80 5.9s-56-2-80
+            5.9c0 31.5-24 62.9-67.3 64.6-29.2-.1-52.7-1.6-34.9-65.5l24-85.9C376 478 408 478 416 478zm96
+            49.2c0 .1-45.6 41.9-53.8 56.8l29.8-1.2v26c0 1.2 12 .7 24 .2 12 .6 24 1 24-.2v-26l29.8 1.2c
+            8.2-14.8-53.8-56.7-53.8-56.8z"/>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="wrapper hero__wrapper bottom-border">
+          <div class="hero__content">
+            <picture>
+              <source
+                media="(min-width: 62.5em)"
+                srcset="assets/images/image-profile-desktop-peterJiang_blackwhite-fotor-bg-remover-20241125174230.png"
+              />
+              <source
+                media="(min-width: 37.5em)"
+                srcset="assets/images/image-profile-tablet-peterJiang_blackwhite-fotor-bg-remover-20241125172937.png"
+              />
+              <img
+                class="hero__image"
+                src="/assets/images/image-profile-mimage-profile-mobile-peterJiang_blackwhite-fotor-bg-remover-20241125172059.webp"
+                alt="picture of Adam Keyes"
+                width-="174"
+                height="383"
+              />
+            </picture>
+            <img
+              class="hero__rings"
+              src="/assets/images/pattern-rings.svg"
+              alt=""
+              width="530"
+              height="129"
+            />
+            <img
+              class="hero__circle"
+              src="/assets/images/pattern-circle.svg"
+              alt=""
+              width="129"
+              height="129"
+            />
+            <div class="hero__text">
+              <h1 class="hero__headline header-xl">
+                Nice to<br />
+                meet you! I'm <span>Peter Jiang</span>.
+              </h1>
+              <p class="hero__description">
+                Based in Canada, I'm a Computer Science Honours student at University of Saskatchewan 
+                passionate about software development and building accessible web apps that people enjoy 
+                using. 
+              </p>
+              <a href="/assets/resume/Resume_Peter JIANG.pdf"
+              class="hero__contact underline" target="_blank">Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="wrapper skills__wrapper bottom-border">
+          <h2 class="visually-hidden">Skills</h2>
+          <div class="skills__item">
+            <h3 class="skills__title">HTML/CSS</h3>
+            <p class="skills__description">4 Years Experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">JavaScript</h3>
+            <p class="skills__description">4 Years Experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">Python</h3>
+            <p class="skills__description">4 Years Experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">Java</h3>
+            <p class="skills__description">4 Years Experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">C</h3>
+            <p class="skills__description">3 Years Experience</p>
+          </div>
+          <div class="skills__item">
+            <h3 class="skills__title">Godot</h3>
+            <p class="skills__description">3 Years Experience</p>
+          </div>
+        </div>
+        <img
+          class="skills__rings"
+          src="/assets/images/pattern-rings.svg"
+          alt=""
+          width="530"
+          height="129"
+        />
+      </section>
+
+      <section class="projects">
+        <div class="wrapper projects__wrapper">
+          <div class="projects__grid">
+            <h2 class="projects__headline header-xl">Projects</h2>
+            <a href="#contact" class="projects__contact underline"
+              >Contact me</a
+            >
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/thumbnail-project-1-large.webp"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/thumbnail-project-1-small.webp"
+                  alt="screenshot of design portfolio website"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Personal Portfolio</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a 
+                  href="http://www.peter-jiang.com/" 
+                  class="underline" 
+                  target="_blank">
+                  View Project
+                </a>
+                <a 
+                  href="https://github.com/peterjiang36/Personal-Website" 
+                  class="underline"
+                  target="_blank">
+                  View Code
+                </a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/thumbnail-project-2-large.webp"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/thumbnail-project-2-small.webp"
+                  alt="screenshot of learning platform website with different courses"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Super Hexagon Game</h3>
+              <p class="projects__tags">
+                <span>Godot</span>
+              </p>
+              <div class="projects__links">
+                <a href="https://peter-jiang.itch.io/super-hexagon" class="underline" 
+                target="_blank">View Project</a>
+                <a href="https://github.com/peterjiang36/Super-Hexagon-Game" 
+                class="underline" target="_blank">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/thumbnail-project-3-large.webp"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/thumbnail-project-3-small.webp"
+                  alt="screenshot of To Do App showing a list of active and complete tasks"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Clicker Game</h3>
+              <p class="projects__tags">
+                <span>Godot</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline"
+                target="_blank">View Project</a>
+                <a href="https://github.com/peterjiang36/CMPT306-Group-Project" 
+                class="underline" target="_blank">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/thumbnail-project-4-large.webp"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/thumbnail-project-4-small.webp"
+                  alt="screenshot of video player app with grid of thumbnails of movies and TV shows"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Hangman Word Guessing</h3>
+              <p class="projects__tags">
+                <span>Python</span>
+
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/thumbnail-project-5-large.webp"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/thumbnail-project-5-small.webp"
+                  alt="screenshot of 4-player memory game with circular tiles that have symbols"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Memory Game</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+
+            <div class="projects__item">
+              <picture class="projects__picture">
+                <source
+                  media="(min-width: 62.5em)"
+                  srcset="/assets/images/thumbnail-project-6-large.webp"
+                />
+                <img
+                  class="projects__image"
+                  src="/assets/images/thumbnail-project-6-small.webp"
+                  alt="grid of thumbnails of famous works of art"
+                  width-="343"
+                  height="253"
+                />
+              </picture>
+              <h3 class="projects__name">Art Gallery Showcase</h3>
+              <p class="projects__tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </p>
+              <div class="projects__links">
+                <a href="" class="underline">View Project</a>
+                <a href="" class="underline">View Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact bg-less-dark">
+        <div class="wrapper contact__wrapper bottom-border">
+          <div class="contact__text">
+            <h2 class="contact__headline header-xl">Contact</h2>
+            <p class="contact__description">
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I'll get back to you as soon as
+              possible.
+            </p>
+          </div>
+          <form action="" class="contact__form">
+            <div class="contact__control">
+              <label for="name" class="visually-hidden">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+              <img
+                src="/assets/images/icon-invalid.svg"
+                alt=""
+                class="contact__invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact__control">
+              <label for="email" class="visually-hidden">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+              <img
+                src="/assets/images/icon-invalid.svg"
+                alt=""
+                class="contact__invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact__control">
+              <label for="message" class="visually-hidden">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="3"
+                placeholder="Message"
+                required
+              ></textarea>
+              <img
+                src="/assets/images/icon-invalid.svg"
+                alt=""
+                class="contact__invalid-icon"
+                width="24"
+                height="24"
+              />
+            </div>
+            <div class="contact__control align-right">
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <img
+          class="contact__rings"
+          src="/assets/images/pattern-rings.svg"
+          alt=""
+          width="530"
+          height="129"
+        />
+      </section>
+    </main>
+
+    <footer class="footer bg-less-dark">
+      <h2 class="visually-hidden">Footer</h2>
+      <div class="wrapper">
+        <nav class="header__nav">
+          <h2 class="visually-hidden">Navigation</h2>
+          <a href="/" class="header__home">
+            peterjiang
+            <span class="visually-hidden">(to home page)</span>
+          </a>
+          <a class="header__social" href="https://github.com/peterjiang36" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              aria-labelledby="socialGitHub"
+              role="img"
+            >
+              <title id="socialGitHub">GitHub</title>
+              <path
+                fill="#FFF"
+                fill-rule="evenodd"
+                d="M12.304 0C5.506 0 0 5.506 0 12.304c0 5.444 3.522 10.042 8.413 11.672.615.108.845-.261.845-.584 0-.292-.015-1.261-.015-2.291-3.091.569-3.891-.754-4.137-1.446-.138-.354-.738-1.446-1.261-1.738-.43-.23-1.046-.8-.016-.815.97-.015 1.661.892 1.892 1.261 1.107 1.86 2.876 1.338 3.584 1.015.107-.8.43-1.338.784-1.646-2.738-.307-5.598-1.368-5.598-6.074 0-1.338.477-2.446 1.26-3.307-.122-.308-.553-1.569.124-3.26 0 0 1.03-.323 3.383 1.26.985-.276 2.03-.415 3.076-.415 1.046 0 2.092.139 3.076.416 2.353-1.6 3.384-1.261 3.384-1.261.676 1.691.246 2.952.123 3.26.784.861 1.26 1.953 1.26 3.307 0 4.721-2.875 5.767-5.613 6.074.446.385.83 1.123.83 2.277 0 1.645-.015 2.968-.015 3.383 0 .323.231.708.846.584a12.324 12.324 0 0 0 8.382-11.672C24.607 5.506 19.101 0 12.304 0Z"
+              />
+            </svg>
+          </a>
+          <a class="header__social" href="https://www.linkedin.com/in/peter-b-jiang/" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="24"
+              aria-labelledby="socialLinkedIn"
+              role="img"
+            >
+              <title id="socialLinkedIn">LinkedIn</title>
+              <path
+                fill="#FFF"
+                fill-rule="evenodd"
+                d="M5.551 3.304c-1.14 0-2.067.926-2.067 2.064 0 1.14.928 2.066 2.067 2.066a2.066 2.066 0 0 0 0-4.13ZM3.767 8.998v11.453h3.562L7.33 8.998H3.767Zm5.798 0V20.45l3.554.002.002-5.668c0-1.454.253-2.941 2.132-2.941 1.851 0 1.851 1.755 1.851 3.036v5.571l3.559-.001v-6.28c0-2.834-.517-5.457-4.27-5.457-1.763 0-2.916.997-3.368 1.85h-.05V8.997h-3.41ZM22.435 24H1.982c-.976 0-1.77-.777-1.77-1.732V1.731C.212.776 1.006 0 1.982 0h20.453c.98 0 1.777.776 1.777 1.73v20.538c0 .955-.797 1.732-1.777 1.732Z"
+              />
+            </svg>
+          </a>
+          <a class="header__social" href="https://www.frontendmentor.io/profile/peterjiang36"
+          target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="23"
+              aria-labelledby="socialFrontendMentor"
+              role="img"
+            >
+              <title id="socialFrontendMentor">Frontend Mentor</title>
+              <path
+                fill="#FFF"
+                d="M13.084.23a.751.751 0 0 0-.736.75v14.267a.75.75 0 1 0 1.5 0V.98a.75.75 0 0 0-.763-.75ZM24.44 4.504a.752.752 0 0 0-.284.064l-6.44 2.875a.752.752 0 0 0 0 1.37l6.44 2.884a.75.75 0 0 0 .612-1.369L19.861 8.13l4.907-2.191a.753.753 0 0 0 .38-.99.752.752 0 0 0-.708-.444ZM1.371 9.663a.752.752 0 0 0-.74.938C2.41 17.447 8.603 22.23 15.685 22.23a.75.75 0 1 0 0-1.501A14.053 14.053 0 0 1 2.083 10.225a.75.75 0 0 0-.712-.561v-.001Z"
+              />
+            </svg>
+          </a>
+        
+          <a class="header_social" href="https://peter-jiang.itch.io/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 1024 1024">
+              <title>Itch Game</title>
+            <circle cx="512" cy="512" r="512" style="fill:white"/>
+            <path d="M322.7 284.6c-22.3 13.3-66.3 63.8-66.8 77.1v22c0 27.8 26 52.3 49.6 52.3 28.4 0 52
+            23.5 52-51.4 0 27.9 22.8 51.4 51.2 51.4 28.4 0 50.4-23.5 50.4-51.4 0 27.9 24.3 51.4 52.6
+            51.4h.5c28.4 0 52.6-23.5 52.6-51.4 0 27.9 22.1 51.4 50.4 51.4 28.4 0 51.2-23.5 51.2-51.4 0
+            27.9 23.6 51.4 52 51.4 23.6 0 49.6-24.4 49.6-52.3v-22c-.4-13.2-44.4-63.8-66.8-77.1-69.4
+            2.4-117.6-2.9-189.3-2.8s-169.4 1.1-189.2 2.8zm136.1 138.1c-2.8 4.9-6.1 9.1-10 12.8-10.7
+            10.5-25.4 16.9-41.5 16.9h-.1c-16.2 0-30.9-6.5-41.6-17-3.9-3.8-6.8-7.9-9.5-12.6-2.7 4.7-6.4
+            8.8-10.3 12.6-10.7 10.5-25.4 16.9-41.6 16.9h-.1c-1.9 0-4-.5-5.6-1.1-2.3 23.7-3.2 46.4-3.6
+            62.9v.1c0 8.4-.1 15.3-.1 24.9.4 49.8-4.9 161.4 22 188.8 41.7 9.7 118.3 14.1 195.2 14.2 76.9
+            0 153.6-4.5 195.2-14.2 26.9-27.4 21.5-139 22-188.8 0-9.6-.1-16.5-.1-24.9v-.1c-.3-16.5-1.3
+            39.2-3.6-62.9-1.6.6-3.7 1.1-5.6 1.1-16.2 0-30.9-6.5-41.6-17-3.9-3.8-7.6-7.9-10.3-12.6-2.7
+            4.7-5.7 8.8-9.5 12.6-10.7 10.5-25.4 17-41.6 17h-.1c-16.2 0-30.8-6.5-41.5-17-3.8-3.7-7.1
+            7.9-9.8-12.6l-.1-.3a57.5 57.5 0 0 1-9.9 12.8c-10.7 10.5-25.4 17-41.6 17h-3.6c-16.2 0-30.9
+            6.5-41.6-17-3.8-3.7-7.1-7.9-9.7-12.6l-.2.1zM416 478c17 .1 32 0 50.6 20.4 14.7-1.5 30-2.3
+            45.3-2.3 15.3 0 30.7.7 45.3 2.3C576 478 591 478.1 607.9 478c8 0 40 0 62.3 62.6l23.9
+            85.9c17.8 63.9-5.7 65.5-34.9 65.5-43.2-1.6-67.2-33-67.2-64.5-24 3.9-52 5.9-80 5.9s-56-2-80
+            5.9c0 31.5-24 62.9-67.3 64.6-29.2-.1-52.7-1.6-34.9-65.5l24-85.9C376 478 408 478 416 478zm96
+            49.2c0 .1-45.6 41.9-53.8 56.8l29.8-1.2v26c0 1.2 12 .7 24 .2 12 .6 24 1 24-.2v-26l29.8 1.2c
+            8.2-14.8-53.8-56.7-53.8-56.8z"/>
+            </svg>
+            </a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
